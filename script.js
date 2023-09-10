@@ -16,17 +16,17 @@ let time = 0;
 
 
 let songs= [
-    {songName: "Mortal NCS", filePath: "./songs/1.mp3", coverPath: "cover/1.jpg"},
-    {songName: "Celio", filePath: "./songs/2.mp3", coverPath: "./cover/2.jpg"},
-    {songName: "NCS mercy", filePath: "./songs/3.mp3", coverPath: "./cover/3.jpg"},
-    {songName: "NCS song", filePath: "./songs/4.mp3", coverPath: "./cover/4.jpg"},
-    {songName: "NCS heatfree", filePath: "./songs/5.mp3", coverPath: "./cover/5.jpg"},
-    {songName: "Heros Tonight", filePath: "./songs/6.mp3", coverPath: "./cover/6.jpg"},
-    {songName: "3", filePath: "./songs/7.mp3", coverPath: "./cover/7.jpg"},
-    {songName: "4", filePath: "./songs/8.mp3", coverPath: "./cover/8.jpg"},
-    {songName: "Sahara", filePath: "./songs/9.mp3", coverPath: "./cover/9.jpg"},
-    {songName: "SunRise (slowed)", filePath: "./songs/10.mp3", coverPath: "./cover/10.jpg"},
-    {songName: "Way down we go", filePath: "./songs/11.mp3", coverPath: "./cover/10.jpg"},
+    {songName: "Sahara", filePath: "./songs/Sahara.mp3", coverPath: "cover/1.jpg"},
+    {songName: "RYLLZ - Purgatory", filePath: "./songs/RYLLZ - Purgatory.mp3", coverPath: "./cover/2.jpg"},
+    {songName: "your love is my drug __slowed & reverb__ (+rain)", filePath: "./songs/your love is my drug __slowed & reverb__ (+rain).mp3", coverPath: "./cover/3.jpg"},
+    {songName: "Tevvez - Legend Ψ", filePath: "./songs/Tevvez - Legend Ψ.mp3", coverPath: "./cover/4.jpg"},
+    {songName: "The Score - Born For This (Official Audio)", filePath: "./songs/The Score - Born For This (Official Audio).mp3", coverPath: "./cover/5.jpg"},
+    {songName: "KSLV - Chase", filePath: "./songs/KSLV - Chase.mp3", coverPath: "./cover/6.jpg"},
+    {songName: "Flare (Sped Up)", filePath: "./songs/Flare (Sped Up).mp3", coverPath: "./cover/7.jpg"},
+    {songName: "F.U.A.R.K.S.T.Y.L.E Zyzz Glimmer of hope Hardstyle", filePath: "./songs/F.U.A.R.K.S.T.Y.L.E Zyzz Glimmer of hope Hardstyle.mp3", coverPath: "./cover/8.jpg"},
+    {songName: "Everybody Wants To Rule The World - LORDE (slowed + reverb)", filePath: "./songs/Everybody Wants To Rule The World - LORDE (slowed + reverb).mp3", coverPath: "./cover/9.jpg"},
+    {songName: "Besomorph - Sweet Dreams", filePath: "./songs/Besomorph - Sweet Dreams.mp3", coverPath: "./cover/10.jpg"},
+    // {songName: "Way down we go", filePath: "./songs/11.mp3", coverPath: "./cover/10.jpg"},
 ]
 
 songList.forEach((element, i)=>{
@@ -34,8 +34,6 @@ songList.forEach((element, i)=>{
 element.getElementsByTagName("img")[0].src =songs[i].coverPath;
 element.getElementsByClassName("songName")[0].innerText =songs[i].songName;
 })
-
-
 
 
 
